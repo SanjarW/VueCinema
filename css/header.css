@@ -80,3 +80,26 @@ color: white;
     width: 100%;
     
 }
+
+
+
+@media screen and(max-width:768px) {
+    .nav__wrap{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .menu__link::after{
+        bottom: -29px;
+        
+    }
+}
+
+@media screen and(max-width:360px){
+    .nav__menu{
+        gap: 15px;
+    }
+    
+}
