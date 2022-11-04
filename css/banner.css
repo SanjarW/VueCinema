@@ -59,7 +59,7 @@ margin-bottom: 55px;
 }
 @media screen and (max-width:420px){
     .banner__h{
-        font-size: 46px;
+        font-size: 32px;
     }
     .banner__links{
         flex-direction: column;
