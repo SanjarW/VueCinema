@@ -2,6 +2,7 @@
     height: 80vh;
     background: url(../img/bg.png) no-repeat top right/cover;
     position: relative;
+    z-index: 1;
 }
 .banner__bg{
     position: absolute;
